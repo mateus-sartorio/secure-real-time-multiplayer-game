@@ -122,22 +122,23 @@ canvas.style.background = "yellow";
 //   }
 // });
 
-const data = [ 200, 150, 170, 100, 80, 50, 350, 200, 200, 230 ];
-const startValue = data[0];
-const distance = canvas.width / data.length;
-const startPoint = 0;
+// const data = [ 200, 150, 170, 100, 80, 50, 350, 200, 200, 230 ];
+// const startValue = data[0];
+// const distance = canvas.width / data.length;
+// const startPoint = 0;
 
-context.beginPath();
+// context.beginPath();
 
-context.moveTo(startPoint, startValue);
+// context.moveTo(startPoint, startValue);
 
-data.forEach((value, index) => {
-  const newDistance = startPoint + (distance * (index + 1));
-  context.lineTo(newDistance, value);
-})
+// data.forEach((value, index) => {
+//   const newDistance = startPoint + (distance * (index + 1));
+//   context.lineTo(newDistance, value);
+// })
 
-context.fillStyle = 'grey';
-context.fill();
-context.stroke();
+// context.fillStyle = 'grey';
+// context.fill();
+// context.stroke();
 
-context.closePath();
+// context.closePath();
+
